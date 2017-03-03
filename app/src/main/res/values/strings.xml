@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">MyGithubClient</string>
 
+    <string name="confirm">确定</string>
+
     //baseUrl host
     <string name="github_api_host">https://api.github.com</string>
+
+    //MainActivity
+    <string name="hint_enter_github_account">请输入您的GitHub账户</string>
 </resources>
