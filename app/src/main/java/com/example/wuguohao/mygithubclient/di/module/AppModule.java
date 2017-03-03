@@ -3,6 +3,7 @@ package com.example.wuguohao.mygithubclient.di.module;
 import android.app.Application;
 
 import com.example.wuguohao.mygithubclient.app.MyApplication;
+import com.example.wuguohao.mygithubclient.model.http.RetrofitHelper;
 
 import javax.inject.Singleton;
 
@@ -26,5 +27,11 @@ public class AppModule
     @Singleton // TODO: 17/3/3 作用
     public MyApplication provideApplication () {
         return application;
+    }
+
+    @Provides
+    @Singleton
+    public RetrofitHelper provideRetrofitHelper () {
+        return new RetrofitHelper();
     }
 }

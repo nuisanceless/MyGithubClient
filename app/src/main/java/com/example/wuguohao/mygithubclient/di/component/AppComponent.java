@@ -1,6 +1,7 @@
 package com.example.wuguohao.mygithubclient.di.component;
 
 import com.example.wuguohao.mygithubclient.di.module.AppModule;
+import com.example.wuguohao.mygithubclient.model.http.api.GithubApis;
 
 import dagger.Component;
 
